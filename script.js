@@ -1,4 +1,4 @@
-function chunkString(str, chunkLength) {
+function stringChop(str, chunkLength) {
   const result = [];
   
   for (let i = 0; i < str.length; i += chunkLength) {
